@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-@Library('github.com/stakater/stakater-pipeline-library@dynamic-notif-secret') _
+@Library('github.com/stakater/stakater-pipeline-library@v2.16.13') _
 
 def backupFileName = new Date().format( 'yyyy-MM-dd-HH-mm-ss' )
 
