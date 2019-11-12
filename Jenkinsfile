@@ -1,11 +1,12 @@
 #!/usr/bin/groovy
-@Library('github.com/stakater/stakater-pipeline-library@v2.16.11') _
+@Library('github.com/stakater/stakater-pipeline-library@v2.16.13') _
 
 def backupFileName = new Date().format( 'yyyy-MM-dd-HH-mm-ss' )
 
 executeMakeTargets {
     target= "run-tests"
     notifySlack= true
+    notificationSecret= 'e2e-slack-notificaton-hook' 
     S3_BUCKET_NAME= "cypress-test-bucket"
     BACKUP_NAME= backupFileName + ".tar.gz"
     REGION= "eu-west-1"
