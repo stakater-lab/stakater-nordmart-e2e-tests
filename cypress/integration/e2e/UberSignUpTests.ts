@@ -10,7 +10,7 @@ describe("Uber Signup", () => {
         cy.get('a[aria-label="Sign up to ride"]').should('be.visible')      
     });
 
-    it("Verify that user is able to sigup as rider", () => {
+    /*    it("Verify that user is able to sigup as rider", () => {
         cy.get('a[aria-label="Sign up to ride"]').click()
         cy.get('div').contains('Sign Up to Ride').should('have.text', 'Sign Up to Ride')
     })
@@ -23,6 +23,6 @@ describe("Uber Signup", () => {
     it("Verify that Last Name field is visible and user is able to write last name" , () => {
         cy.get('#lastName').should('be.visible')
         cy.get('#lastName').type("User")
-    })
+	})*/
 
 })
