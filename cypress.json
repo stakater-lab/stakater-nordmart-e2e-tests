@@ -9,5 +9,8 @@
     "reportTitle": "Uber Test Run",
     "overWrite": true,
     "saveHtml": true
+  },
+  "env": {
+    "nordmartWebUrl": "http://0.0.0.0:4200"
   }
 }

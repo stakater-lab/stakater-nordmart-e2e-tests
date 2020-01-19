@@ -1,6 +1,6 @@
 describe('Products Search Test', function() {
   it('Skakater Nordmart Store', function() {
-    cy.visit('http://0.0.0.0:4200')
+    cy.visit(Cypress.env('nordmartWebUrl'))
     cy.get('#search-input').type('Solid')
     cy.get('#search-submit').click()
 
