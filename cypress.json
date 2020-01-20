@@ -11,6 +11,10 @@
     "saveHtml": true
   },
   "env": {
-    "nordmartWebUrl": "http://0.0.0.0:4200"
+    "nordmartWebUrl": "http://localhost:4200/",
+    "username": "moise.andrianekena@gmail.com",
+    "password": "moise",
+    "keycloakUrl": "http://192.168.99.100:8180"
+
   }
 }
