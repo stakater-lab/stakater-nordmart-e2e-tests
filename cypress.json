@@ -12,9 +12,9 @@
   },
   "env": {
     "nordmartWebUrl": "http://localhost:4200/",
-    "username": "moise.andrianekena@gmail.com",
-    "password": "moise",
-    "keycloakUrl": "http://192.168.99.100:8180"
+    "username": "stakater-user@stakater.com",
+    "password": "password",
+    "keycloakUrl": "https://keycloak-security.DOMAIN:8180/auth/"
 
   }
 }
