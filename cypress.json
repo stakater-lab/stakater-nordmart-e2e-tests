@@ -11,9 +11,9 @@
     "saveHtml": true
   },
   "env": {
-    "nordmartWebUrl": "https://web-dev.nordmart-eks.stakater.com/",
+    "nordmartWebUrl": "https://web-dev.nordmart-eks.stakater.com",
     "username": "stakater-user@stakater.com",
     "password": "password",
-    "keycloakUrl": "https://keycloak-dev.nordmart-eks.stakater.com/auth/"
+    "keycloakUrl": "https://keycloak-dev.nordmart-eks.stakater.com/auth"
   }
 }

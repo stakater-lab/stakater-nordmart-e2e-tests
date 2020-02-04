@@ -30,7 +30,7 @@ Cypress.Commands.add('login', (username, password) => {
     const kcClient = 'stakater-nordmart-web';
     const kcRedirectUri = Cypress.env('nordmartWebUrl');
     const loginPageRequest = {
-        url: `${kcRoot}/auth/realms/${kcRealm}/protocol/openid-connect/auth`,
+        url: `${kcRoot}/realms/${kcRealm}/protocol/openid-connect/auth`,
         qs: {
             client_id: kcClient,
             redirect_uri: kcRedirectUri,
@@ -83,7 +83,7 @@ Cypress.Commands.add('logout', () => {
     const kcRealm = 'nordmart';
     const kcRedirectUri = Cypress.env('nordmartWebUrl');
     return cy.request({
-        url: `${kcRoot}/auth/realms/${kcRealm}/protocol/openid-connect/logout`,
+        url: `${kcRoot}/realms/${kcRealm}/protocol/openid-connect/logout`,
         qs: {
             redirect_uri: kcRedirectUri
         }
