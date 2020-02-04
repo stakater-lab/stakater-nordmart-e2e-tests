@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.uber.com/in/en/",
+  "baseUrl": "https://www.stakater.com/",
   "pageLoadTimeout": 180000,
   "defaultCommandTimeout": 5000,
   "reporter": "mochawesome",
@@ -9,5 +9,11 @@
     "reportTitle": "Uber Test Run",
     "overWrite": true,
     "saveHtml": true
+  },
+  "env": {
+    "nordmartWebUrl": "https://web-dev.nordmart-eks.stakater.com",
+    "username": "stakater-user@stakater.com",
+    "password": "password",
+    "keycloakUrl": "https://keycloak-dev.nordmart-eks.stakater.com/auth"
   }
 }
