@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.uber.com/in/en/",
+  "baseUrl": "https://www.stakater.com/",
   "pageLoadTimeout": 180000,
   "defaultCommandTimeout": 5000,
   "reporter": "mochawesome",
